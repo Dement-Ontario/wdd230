@@ -1,0 +1,13 @@
+@media (min-width: 32.5em) {
+    header {
+        border-radius: 25px;
+    }
+
+    footer {
+        border-radius: 25px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
