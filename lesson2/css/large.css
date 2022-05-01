@@ -1,0 +1,9 @@
+@media (min-width: 65em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #design-section-3 {
+        grid-column: 3 / 4;
+    }
+}

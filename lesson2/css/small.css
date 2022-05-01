@@ -1,0 +1,62 @@
+h1, h2 {
+    font-family: "Tahoma", Helvetica, sans-serif;
+    margin: 1rem;
+}
+
+h1, h2, h3, footer p {
+    color: white;
+}
+
+p, a {
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-family: "Tahoma", Helvetica, sans-serif;
+    background-color: rgb(56, 131, 56);
+    border: 1px solid rgb(29, 68, 29);
+    border-radius: 10px 10px 0px 0px;
+    padding: 0.5em;
+    margin: 0;
+}
+
+header, footer{
+    background-color: rgb(34, 80, 34);
+    text-align: center;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main div {
+    border: 1px solid gray;
+    background-color: rgb(235, 235, 235);
+    padding: 0rem 0.25rem 0rem 0.25rem;
+}
+
+main div p, a {
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+img {
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 1rem;
+}
+
+#design-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#design-section-1, #design-section-2, #design-section-3 {
+    margin: 1rem;
+}
