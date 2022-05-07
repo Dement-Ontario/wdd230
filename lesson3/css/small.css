@@ -1,0 +1,96 @@
+body {
+    background-color: #6290C8;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1, h3, h4 {
+    line-height: 3rem;
+}
+
+h3, h4 {
+    margin-bottom: -0.3em;
+}
+
+p, a, li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+#scenarios li {
+    margin-bottom: 1rem;
+    list-style-type: none;
+    margin-left: -1rem;
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header, nav, footer, h2 {
+    text-align: center;
+}
+
+nav div {
+    background-color: #1F487E;
+    padding: 1rem;
+    flex: 1 1 auto;
+}
+
+nav div:hover {
+    background-color: #376996;
+}
+
+nav a {
+    width: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    max-width: 992px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: #CAD5E2;
+}
+
+header, footer {
+    background-color: #1D3461;
+}
+
+h1, footer p {
+    color: white;
+}
+
+#color-link {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+#color-palette {
+    width: 100%;
+    border: solid black;
+}
+
+#typography-heading-font {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-left: -2px;
+    line-height: 3rem;
+}
+
+#typography-paragraph-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
