@@ -74,8 +74,16 @@ h1, footer p {
 }
 
 #color-link {
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: center;
+}
+
+#color-link a {
+    color: #1F487E;
+}
+
+#color-link a:visited {
+    color: #1D3461;
 }
 
 #color-palette {
