@@ -1,0 +1,211 @@
+body {
+    background-color: #6290C8;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    margin: 0;
+}
+
+p, a, li, button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+nav ul li a, #hamburger-nav a {
+    display: block;
+    background-color: #1F487E;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    border-bottom: 1px solid #376996;
+}
+
+nav ul li a:hover, #hamburger-nav a:hover {
+    background-color: #376996;
+}
+
+nav ul li {
+    width: 100%;
+}
+
+nav ul, #hamburger-nav {
+    text-align: center;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    border-top: 1px solid #376996;
+}
+
+main {
+    background-color: #CAD5E2;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+}
+
+header, footer {
+    background-color: #1D3461;
+}
+
+h1, h2, header p, footer p, .footer-info a {
+    color: white;
+}
+
+h1, h2 {
+    text-align: left;
+}
+
+h1 {
+    font-size: 1.1em;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 0.8em;
+    margin-bottom: 1rem;
+}
+
+.footer-info a:visited {
+    color: #6290C8;
+}
+
+header div {
+    margin-bottom: 1rem;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-info {
+    display: block;
+    margin: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h4 {
+    color: white;
+}
+
+header button {
+    color: white;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    background-color: #1F487E;
+    border: 1px solid #376996;
+    width: 3rem;
+    height: 3rem;
+}
+
+header button:hover {
+    background-color: #1D3461;
+}
+
+main section, main section div {
+    background-color: rgba(0,0,0,0.1);
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+main section div {
+    height: 10rem;
+}
+
+#home-spotlights {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+#hamburger-nav.open {
+    display: block;
+}
+
+#home-spotlight-three, #home-join {
+    display: none;
+}
+
+#hamburger-button span:nth-child(1) {display: block;}
+#hamburger-button span:nth-child(2) {display: none;}
+
+
+#hamburger-button.open span:nth-child(1) {display: none;}
+#hamburger-button.open span:nth-child(2) {display: block;}
+
+.logo img {
+    width: 5rem;
+}
+
+.logo {
+    display: flex;
+	align-items: center;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+    margin-left: 0.25rem;
+}
+
+.current-date {
+    background-color: #1F487E;
+    padding: 1rem;
+    border: 1px solid #376996;
+    text-align: center;
+}
+
+.social {
+    margin-top: 2rem;
+}
+
+.social img {
+    width: 2rem;
+}
+
+.small-copyright {
+    display: block;
+    text-align: center;
+    padding-top: 0.5rem;
+    border-top: 1px solid #376996;
+}
+
+.medium-copyright {
+    display: none;
+    text-align: center;
+    padding-top: 0.5rem;
+    border-top: 1px solid #376996;
+}
+
+.footer-info {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footer-logo {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.footer-headings {
+    display: block;
+}
+
+.footer-logo img {
+    width: 12.5rem;
+}
