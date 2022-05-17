@@ -6,6 +6,10 @@
 
     button#hamburger-button {display: none;}
 
+    nav {
+        display: block;
+    }
+
     nav ul#primary-nav {
         display: flex;
         border-left: 1px solid #376996;
