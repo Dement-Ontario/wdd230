@@ -3,6 +3,7 @@ const fullDate = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);
 const year = now.getFullYear();
+const today = now.getDay();
 
 document.querySelector(".current-date").innerHTML = fullDate;
 
@@ -22,3 +23,12 @@ function toggleMenu() {
 const x = document.getElementById("hamburger-button");
 
 x.onclick = toggleMenu;
+
+const meetGreetMsg = document.getElementById("home-meet-greet-msg");
+
+if(today === 1 || today === 2) {
+    meetGreetMsg.style.display = "block";
+}
+else {
+    meetGreetMsg.style.display = "none";
+}

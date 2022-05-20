@@ -14,7 +14,7 @@ p, a, li, button {
 }
 
 main {
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 1rem;
 }
@@ -53,7 +53,7 @@ main {
     background-color: #CAD5E2;
     display: grid;
     gap: 0.5rem;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+    grid-template-rows: auto 12rem auto auto 1fr;
 }
 
 header, footer {
@@ -78,6 +78,10 @@ h1 {
 h2 {
     font-size: 0.8em;
     margin-bottom: 1rem;
+}
+
+h3 {
+    margin-bottom: 0.75rem;
 }
 
 .footer-info a:visited {
@@ -123,14 +127,37 @@ header button:hover {
     background-color: #1D3461;
 }
 
-main section, main section div {
+main section, main section div.spotlight {
+    text-align: center;
     background-color: rgba(0,0,0,0.1);
-    padding: 1rem;
+    padding: 0.75rem;
     border: 1px solid rgba(0,0,0,0.3);
 }
 
-main section div {
-    height: 10rem;
+main section div.spotlight img {
+    width: 40%;
+    margin-top: -0.5rem;
+}
+
+main section div.spotlight p {
+    font-style: italic;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+main section div.spotlight p.spotlight-contact {
+    font-size: 0.9rem;
+    font-style: normal;
+    border-top: 1px solid black;
+    margin: 0;
+}
+
+#home-meet-greet-msg {
+    display: none;
+    text-align: center;
+    padding: 1rem;
+    background-color: #1F487E;
+    border-bottom: 1px solid #376996;
 }
 
 #home-spotlights {
@@ -145,6 +172,112 @@ main section div {
 
 #hamburger-nav.open {
     display: block;
+}
+
+#home-action-call {
+    position: relative;
+    padding: 0;
+}
+
+#home-action-call h3, #home-action-call a {
+    position: absolute;
+}
+
+#home-action-call h3 {
+    top: 1rem;
+    left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    background-color: #1F487E;
+    outline: 1px solid #376996;
+    color: white;
+}
+
+#home-action-call a {
+    bottom: 1rem;
+	right: 1rem;
+    margin-left: 1rem;
+}
+
+#home-action-call a, #home-join a {
+    display: block;
+    padding: 1rem;
+    background-color: #1F487E;
+    outline: 1px solid #376996;
+    color: white;
+    text-decoration: none;
+}
+
+#home-action-call a:hover, #home-join a:hover {
+    background-color: #376996;
+}
+
+#home-action-call img {
+    width: 100%;
+    height: 100%;
+}
+
+#home-join a h3 {
+    margin: 0;
+}
+
+#home-join div {
+    margin-top: 0.75rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-event {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#home-event p:nth-child(2) {
+    font-weight: bold;
+    margin-top: -2rem;
+}
+
+#home-event a {
+    color: #376996;
+}
+
+#home-event a:visited {
+    color: #1D3461;
+}
+
+#home-weather {
+    padding-right: 1.5rem;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#home-weather img {
+    width: 35%;
+}
+
+#home-weather-sun {
+    text-align: right;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+    margin-top: 0.5rem;
+}
+
+#home-weather-temp {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#home-weather-wind {
+    padding-top: 0.5rem;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #home-spotlight-three, #home-join {
