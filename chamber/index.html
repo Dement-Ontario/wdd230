@@ -16,7 +16,7 @@
         <p id="home-meet-greet-msg">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         <div>
             <div class="logo">
-                <img src="images/logo.jpg" alt="Cambridge UK Chamber Logo">
+                <img src="images/weblogo.webp" alt="Cambridge UK Chamber Logo">
                 <section class="headings">
                     <h1>Cambridge, UK</h1>
                     <h2>Chamber of Commerce</h2>
@@ -47,7 +47,12 @@
     <main>
         <section id="home-action-call">
             <h3>Welcome to Cambridge, UK</h3>
-            <img src="https://placekitten.com/500/213" alt="Action call image placeholder">
+            <picture class="hero-image">
+                <source media="(max-width: 34.99rem)" srcset="images/sample508.jpg">
+                <source media="(max-width: 63.99rem)" srcset="images/sample972.jpg">
+                <source media="(min-width: 64rem)" srcset="images/sample534.jpg">
+                <img src="images/sample.jpg" alt="Action call image placeholder">
+            </picture>
             <a href="#">Join the Chamber</a>
         </section>
         <section id="home-event">
@@ -59,14 +64,14 @@
             <h3>Weather</h3>
             <div id="home-weather-temp">
                 <img src="https://placekitten.com/75/75" alt="Weather image placeholder">
-                <h4>97°C</h4>
+                <h4><span id="temperature">10</span>°C</h4>
             </div>
             <h5 id="home-weather-sun">Sunny</h5>
             <div id="home-weather-wind">
                 <p>Wind Speed:</p>
-                <p>0 km/h</p>
+                <p><span id="wind-speed">10</span> km/h</p>
                 <p>Wind Chill:</p>
-                <p>N/A</p>
+                <p id="wind-chill">N/A</p>
             </div>
         </section>
         <section id="home-news">
@@ -103,7 +108,7 @@
     <footer>
         <div class="general-info">
             <div class="footer-logo">
-                <img src="images/logo.jpg" alt="Cambridge UK Chamber Logo">
+                <img src="images/weblogo.webp" alt="Cambridge UK Chamber Logo">
                 <section class="footer-headings">
                     <h4>Cambridge, UK Chamber of Commerce</h4>
                     <p>947 Street St.</p>
@@ -126,5 +131,6 @@
             Cambridge UK Chamber | Joseph Toronto | WDD 230 Project | Last Updated: <span id="medium-last-updated"></span></p>
     </footer>
     <script src="js/chamber.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

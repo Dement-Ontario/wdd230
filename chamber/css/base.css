@@ -62,6 +62,10 @@ header, footer {
     padding-bottom: 1rem;
 }
 
+footer {
+    padding-top: 0.5rem;
+}
+
 h1, h2, header p, footer p, .footer-info a {
     color: white;
 }
