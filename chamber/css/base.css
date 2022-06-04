@@ -1,3 +1,5 @@
+/* Home Page/General CSS */
+
 body {
     background-color: #6290C8;
 }
@@ -51,9 +53,15 @@ nav ul, #hamburger-nav {
 
 main {
     background-color: #CAD5E2;
+}
+
+.main-grid {
     display: grid;
     gap: 0.5rem;
-    grid-template-rows: auto 12rem auto auto 1fr;
+}
+
+.home-grid {
+    grid-template-rows: auto 12rem auto auto auto;
 }
 
 header, footer {
@@ -131,7 +139,8 @@ header button:hover {
     background-color: #1D3461;
 }
 
-main section, main section div.spotlight {
+main section, main section div.spotlight,
+.discover-left-image, .discover-right-image {
     text-align: center;
     background-color: rgba(0,0,0,0.1);
     padding: 0.75rem;
@@ -361,4 +370,65 @@ main section div.spotlight p.spotlight-contact {
 
 .footer-logo img {
     width: 12.5rem;
+}
+
+/* Discover Page */
+
+.discover-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.discover-time-between {
+    grid-column: 1 / 4;
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+
+.discover-left-image {
+    grid-column: 1 / 2;
+    margin: auto 0;
+}
+
+.discover-right-info {
+    grid-column: 2 / 4;
+    text-align: left;
+}
+
+.discover-right-image {
+    grid-column: 3 / 4;
+    margin: auto 0;
+}
+
+.discover-left-info {
+    grid-column: 1 / 3;
+    text-align: right;
+}
+
+.discover-demographics {
+    grid-column: 1 / 4;
+    margin: 0 auto;
+}
+
+.discover-demographics li {
+    text-align: left;
+}
+
+.discover-grid img {
+    width: 100%;
+    transition: box-shadow 0.25s;
+}
+
+.discover-grid img:hover {
+    box-shadow: 0 0 25px black;
+    transition: box-shadow 0.25s;
+}
+
+#discover-info-1 {
+    grid-row: 3 / 4;
+}
+
+#discover-info-2 {
+    grid-row: 5 / 6;
 }

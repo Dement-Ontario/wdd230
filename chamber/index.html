@@ -16,7 +16,7 @@
         <p id="home-meet-greet-msg">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         <div>
             <div class="logo">
-                <img src="images/weblogo.webp" alt="Cambridge UK Chamber Logo">
+                <a href="#"><img src="images/weblogo.webp" alt="Cambridge UK Chamber Logo"></a>
                 <section class="headings">
                     <h1>Cambridge, UK</h1>
                     <h2>Chamber of Commerce</h2>
@@ -24,7 +24,7 @@
             </div>
             <nav>
                 <ul id="primary-nav">
-                    <li><a href="#">Discover</a></li>
+                    <li><a href="discover.html">Discover</a></li>
                     <li><a href="#">Directory</a></li>
                     <li><a href="#">Join</a></li>
                     <li><a href="#">Contact</a></li>
@@ -37,7 +37,7 @@
             <button id="hamburger-button"><span>&#9776;</span><span>X</span></button>
         </div>
         <ul id="hamburger-nav">
-            <li><a href="#">Discover</a></li>
+            <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Contact</a></li>
@@ -45,65 +45,67 @@
         <p class="current-date"></p>
     </header>
     <main>
-        <section id="home-action-call">
-            <h3>Welcome to Cambridge, UK</h3>
-            <picture class="hero-image">
-                <source media="(max-width: 34.99rem)" srcset="images/sample508.jpg">
-                <source media="(max-width: 63.99rem)" srcset="images/sample972.jpg">
-                <source media="(min-width: 64rem)" srcset="images/sample534.jpg">
-                <img src="images/sample.jpg" alt="Action call image placeholder">
-            </picture>
-            <a href="#">Join the Chamber</a>
-        </section>
-        <section id="home-event">
-            <h3>Event</h3>
-            <p>The Event Place</p>
-            <p>Join us for the event at the Event Place, Friday at 6:00pm. <a href="#">more info ...</a></p>
-        </section>
-        <section id="home-weather">
-            <h3>Weather</h3>
-            <div id="home-weather-temp">
-                <img src="https://placekitten.com/75/75" alt="Weather image placeholder">
-                <h4><span id="temperature">10</span>°C</h4>
-            </div>
-            <h5 id="home-weather-sun">Sunny</h5>
-            <div id="home-weather-wind">
-                <p>Wind Speed:</p>
-                <p><span id="wind-speed">10</span> km/h</p>
-                <p>Wind Chill:</p>
-                <p id="wind-chill">N/A</p>
-            </div>
-        </section>
-        <section id="home-news">
-            <h3>News release</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptas
-                unde consequuntur sint ab enim, quis excepturi cupiditate ex deleniti voluptatibus
-                assumenda commodi. Nostrum illo sit, minima illum reprehenderit animi.</p>
-        </section>
-        <section id="home-join">
-            <a href="#"><h3>Join Us!</h3></a>
-            <div><p>Find out how to join our chamber of commerce and how your business will benefit from it!</p></div>
-        </section>
-        <section id="home-spotlights">
-            <div class="spotlight">
-                <h3>Spotlight 1</h3>
-                <img src="https://placekitten.com/150/150" alt="Spotlight 1 image placeholder">
-                <p>This is a description.</p>
-                <p class="spotlight-contact">contact@spotlight.net<br>555-1234</p>
-            </div>
-            <div class="spotlight">
-                <h3>Spotlight 2</h3>
-                <img src="https://placekitten.com/150/150" alt="Spotlight 2 image placeholder">
-                <p>This is a slightly longer description.</p>
-                <p class="spotlight-contact">contact@spotlight.org<br>555-5678</p>
-            </div>
-            <div id="home-spotlight-three" class="spotlight">
-                <h3>Spotlight 3</h3>
-                <img src="https://placekitten.com/150/150" alt="Spotlight 3 image placeholder">
-                <p>This is a description.</p>
-                <p class="spotlight-contact">contact@spotlight.com<br>555-9012</p>
-            </div>
-        </section>
+        <div class="main-grid home-grid">
+            <section id="home-action-call">
+                <h3>Welcome to Cambridge, UK</h3>
+                <picture class="hero-image">
+                    <source media="(max-width: 34.99rem)" srcset="images/sample508.jpg">
+                    <source media="(max-width: 63.99rem)" srcset="images/sample972.jpg">
+                    <source media="(min-width: 64rem)" srcset="images/sample534.jpg">
+                    <img src="images/sample.jpg" alt="Action call image placeholder">
+                </picture>
+                <a href="#">Join the Chamber</a>
+            </section>
+            <section id="home-event">
+                <h3>Event</h3>
+                <p>The Event Place</p>
+                <p>Join us for the event at the Event Place, Friday at 6:00pm. <a href="#">more info ...</a></p>
+            </section>
+            <section id="home-weather">
+                <h3>Weather</h3>
+                <div id="home-weather-temp">
+                    <img src="https://placekitten.com/75/75" alt="Weather image placeholder">
+                    <h4><span id="temperature">10</span>°C</h4>
+                </div>
+                <h5 id="home-weather-sun">Sunny</h5>
+                <div id="home-weather-wind">
+                    <p>Wind Speed:</p>
+                    <p><span id="wind-speed">10</span> km/h</p>
+                    <p>Wind Chill:</p>
+                    <p id="wind-chill">N/A</p>
+                </div>
+            </section>
+            <section id="home-news">
+                <h3>News release</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptas
+                    unde consequuntur sint ab enim, quis excepturi cupiditate ex deleniti voluptatibus
+                    assumenda commodi. Nostrum illo sit, minima illum reprehenderit animi.</p>
+            </section>
+            <section id="home-join">
+                <a href="#"><h3>Join Us!</h3></a>
+                <div><p>Find out how to join our chamber of commerce and how your business will benefit from it!</p></div>
+            </section>
+            <section id="home-spotlights">
+                <div class="spotlight">
+                    <h3>Spotlight 1</h3>
+                    <img src="https://placekitten.com/150/150" alt="Spotlight 1 image placeholder">
+                    <p>This is a description.</p>
+                    <p class="spotlight-contact">contact@spotlight.net<br>555-1234</p>
+                </div>
+                <div class="spotlight">
+                    <h3>Spotlight 2</h3>
+                    <img src="https://placekitten.com/150/150" alt="Spotlight 2 image placeholder">
+                    <p>This is a slightly longer description.</p>
+                    <p class="spotlight-contact">contact@spotlight.org<br>555-5678</p>
+                </div>
+                <div id="home-spotlight-three" class="spotlight">
+                    <h3>Spotlight 3</h3>
+                    <img src="https://placekitten.com/150/150" alt="Spotlight 3 image placeholder">
+                    <p>This is a description.</p>
+                    <p class="spotlight-contact">contact@spotlight.com<br>555-9012</p>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="general-info">

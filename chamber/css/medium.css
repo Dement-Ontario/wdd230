@@ -1,5 +1,7 @@
 @media (min-width: 35rem) {
-    main {
+    /* Home Page/General CSS */
+
+    .home-grid {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto 1fr 10rem auto;
     }
@@ -84,5 +86,4 @@
         grid-column: 3 / 4;
         grid-row: 5 / 6;
     }
-    
 } 
