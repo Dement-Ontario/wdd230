@@ -492,6 +492,13 @@ span.required {
     margin-top: -0.75rem;
 }
 
+form p.small-hint:nth-last-child(2) {
+    background-color: rgba(0,0,0,0.05);
+    padding: 0.5rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    max-width: 15.525rem;
+}
+
 .membership-benefits {
     display: none;
     text-align: left;
