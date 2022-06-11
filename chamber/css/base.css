@@ -4,12 +4,12 @@ body {
     background-color: #6290C8;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, legend {
     font-family: "Montserrat", Helvetica, sans-serif;
     margin: 0;
 }
 
-p, a, li, button {
+p, a, li, button, label, form input.submit-button {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     line-height: 1.5rem;
@@ -140,7 +140,8 @@ header button:hover {
 }
 
 main section, main section div.spotlight,
-.discover-left-image, .discover-right-image {
+.discover-left-image, .discover-right-image,
+.membership-benefits {
     text-align: center;
     background-color: rgba(0,0,0,0.1);
     padding: 0.75rem;
@@ -431,4 +432,91 @@ main section div.spotlight p.spotlight-contact {
 
 #discover-info-2 {
     grid-row: 5 / 6;
+}
+
+/* Join Page */
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 0 0 1rem 0;
+    background-color: rgba(0,0,0,0.05);
+    padding: 0.75rem;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.25rem;
+    background-color: #D8E0E9;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 0.25rem;
+}
+
+form input {
+    padding: 0.6rem;
+    width: calc(100% - 1.45rem);
+}
+
+form input[type="radio"] {
+    width: auto;
+}
+
+form textarea {
+    padding: 0.6rem;
+    height: 7.5rem;
+    width: calc(100% - 1.35rem);
+}
+
+form input.submit-button {
+    color: white;
+    background-color: #1F487E;
+    border: 1px solid #376996;
+    text-align: center;
+    margin-top: 0.75rem;
+    width: auto;
+}
+
+form input.submit-button:hover {
+    background-color: #376996;
+}
+
+span.required {
+    color: red;
+    font-size: 1.25rem;
+}
+
+.small-hint {
+    font-size: 0.85rem;
+    margin-top: -0.75rem;
+}
+
+.membership-benefits {
+    display: none;
+    text-align: left;
+}
+
+/* Thank You Page */
+
+.thank-you-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.thank-you-wrapper header, .thank-you-wrapper footer {
+    flex-shrink: 0;
+}
+
+.thank-you-wrapper main {
+    flex-grow: 1;
+}
+
+.thank-you-main, .join-main h3 {
+    text-align: center;
+}
+
+.thank-you-main h3, .join-main h3 {
+    font-size: 2rem;
 }

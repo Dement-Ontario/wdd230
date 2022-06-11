@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambridge UK Chamber of Commerce | Join</title>
+    <meta name="description" content="Join page for Cambridge, United Kingdom's chamber of commerce, made for BYU-Idaho Online's WDD 230 course">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p id="home-meet-greet-msg">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        <div>
+            <div class="logo">
+                <a href="index.html"><img src="images/weblogo.webp" alt="Cambridge UK Chamber Logo"></a>
+                <section class="headings">
+                    <h1>Cambridge, UK</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+            <nav>
+                <ul id="primary-nav">
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram link"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter link"></a>
+            </div>
+            <button id="hamburger-button"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <ul id="hamburger-nav">
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p class="current-date"></p>
+    </header>
+    <main>
+        <div class="join-main">
+            <h3>Join Us</h3>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>First Name<span class="required">*</span>
+                        <br><input type="text" name="fname" required></label>
+                    <label>Last Name<span class="required">*</span>
+                        <br><input type="text" name="lname" required></label>
+                    <label>Business Position Title<br><input type="text" name="title" pattern="[-A-Za-z\s]{7,}"></label>
+                    <p class="small-hint">(Alpha characters, hyphens, and spaces only, minimum 7 characters)</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label>Email Address<span class="required">*</span>
+                        <br><input type="email" name="email" 
+                        placeholder="email@emailsite.com" required></label>
+                    <label>Phone Number<span class="required">*</span>
+                        <br><input type="tel" name="phone" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label>Name/Title of Business<span class="required">*</span>
+                        <br><input type="text" name="bname" required></label>
+                    <label>Description of Business<br><textarea name="bdesc"></textarea></label>
+                </fieldset>
+                <fieldset class="membership-levels">
+                    <legend>Membership Level</legend>
+                    <label><input type="radio" name="membership" value="np"> Non-Profit Membership (Free)</label>
+                    <label><input type="radio" name="membership" value="bronze"> Bronze Membership (£5/month)</label>
+                    <label><input type="radio" name="membership" value="silver"> Silver Membership (£10/month)</label>
+                    <label><input type="radio" name="membership" value="gold"> Gold Membership (£20/month)</label>
+                    <div class="membership-benefits">
+                        <p>
+                            Non-Profit Membership is for non-profit organizations.<br>
+                            Bronze comes with a course on how to run a business.<br>
+                            Silver comes with Bronze benefits and 25% off event prices.<br>
+                            Gold gives you Silver benefits and you can advertise your
+                            business on the front page's spotlights.
+                        </p>
+                    </div>
+                </fieldset>
+                <input type="hidden" id="join-form-date" name="datetime">
+                <p class="small-hint">Items with a red asterisk (<span class="required">*</span>) are required.</p>
+                <input type="submit" value="Join the Chamber" class="submit-button">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="general-info">
+            <div class="footer-logo">
+                <img src="images/weblogo.webp" alt="Cambridge UK Chamber Logo">
+                <section class="footer-headings">
+                    <h4>Cambridge, UK Chamber of Commerce</h4>
+                    <p>947 Street St.</p>
+                    <p>Cambridge, United Kingdom</p>
+                </section>
+            </div>
+            <div class="footer-info">
+                <p>info@cambridgeukchamber.com</p>
+                <p>555-5555</p>
+                <a href="https://www.google.com/maps/place/Cambridge/" target="_blank">Location Map</a>
+            </div>
+        </div>
+        <div class="small-copyright">
+            <p>&copy; <span id="small-copyright-year"></span> Cambridge UK Chamber</p>
+            <p>Joseph Toronto</p>
+            <p>WDD 230 Project</p>
+            <p>Last Updated: <span id="small-last-updated"></span></p>
+        </div>
+        <p class="medium-copyright">&copy; <span id="medium-copyright-year"></span>
+            Cambridge UK Chamber | Joseph Toronto | WDD 230 Project | Last Updated: <span id="medium-last-updated"></span></p>
+    </footer>
+    <script src="js/chamber.js"></script>
+    <script src="js/formdate.js"></script>
+</body>
+</html>

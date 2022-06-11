@@ -86,4 +86,28 @@
         grid-column: 3 / 4;
         grid-row: 5 / 6;
     }
+
+    /* Join Page */
+
+    fieldset {
+        width: 484px;
+    }
+    
+    .membership-levels {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+    }
+    
+    .membership-levels label {
+        grid-column: 1 / 2;
+    }
+    
+    .membership-benefits {
+        display: block;
+        grid-column: 2 / 3;
+        grid-row: 1 / 5;
+    }
+
+
 } 
