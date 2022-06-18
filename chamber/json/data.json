@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "The Beef Store",
+            "imageurl": "https://placekitten.com/75/75",
+            "address": "1 Place Avenue",
+            "phonenumber": "555-1111",
+            "siteurl": "beefstore.org",
+            "memberlevel": "Gold"
+        },
+        {
+            "name": "Barstucks",
+            "imageurl": "https://placekitten.com/75/75",
+            "address": "2 Place Avenue",
+            "phonenumber": "555-2244",
+            "siteurl": "com.barstucks",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "Your Local Library",
+            "imageurl": "https://placekitten.com/75/75",
+            "address": "3 Place Avenue",
+            "phonenumber": "555-3366",
+            "siteurl": "yourlocallibrary.gov",
+            "memberlevel": "Non-Profit"
+        },
+        {
+            "name": "Birds-We-Make",
+            "imageurl": "https://placekitten.com/75/75",
+            "address": "4 Place Avenue",
+            "phonenumber": "555-4488",
+            "siteurl": "birdswemake.org",
+            "memberlevel": "Silver"
+        },
+        {
+            "name": "Inconspicuous Pizza Place",
+            "imageurl": "https://placekitten.com/75/75",
+            "address": "5 Place Avenue",
+            "phonenumber": "555-5510",
+            "siteurl": "noneofya.biz",
+            "memberlevel": "Silver"
+        },
+        {
+            "name": "Cheddar Choices",
+            "imageurl": "https://placekitten.com/75/75",
+            "address": "Your Local Sewer",
+            "phonenumber": "555-6612",
+            "siteurl": "cheddarchoices.co.uk",
+            "memberlevel": "Bronze"
+        },
+        {
+            "name": "Pretty Much Just Beans",
+            "imageurl": "https://placekitten.com/75/75",
+            "address": "7 Place Avenue",
+            "phonenumber": "555-7714",
+            "siteurl": "beeeaaaannnns.ben",
+            "memberlevel": "Gold"
+        },
+        {
+            "name": "People Zoo",
+            "imageurl": "https://placekitten.com/75/75",
+            "address": "8 Place Avenue",
+            "phonenumber": "555-8816",
+            "siteurl": "habitat4humans.org",
+            "memberlevel": "Non-Profit"
+        },
+        {
+            "name": "Man-Made Bird Destroyers Inc.",
+            "imageurl": "https://placekitten.com/75/75",
+            "address": "Hubble Space Telescope",
+            "phonenumber": "555-9001",
+            "siteurl": "birddestroyers.gov",
+            "memberlevel": "Gold"
+        }
+    ]
+}

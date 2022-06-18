@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambridge UK Chamber of Commerce | Directory</title>
+    <meta name="description" content="Directory page for Cambridge, United Kingdom's chamber of commerce, made for BYU-Idaho Online's WDD 230 course">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p id="home-meet-greet-msg">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        <div>
+            <div class="logo">
+                <a href="index.html"><img src="images/weblogo.webp" alt="Cambridge UK Chamber Logo"></a>
+                <section class="headings">
+                    <h1>Cambridge, UK</h1>
+                    <h2>Chamber of Commerce</h2>
+                </section>
+            </div>
+            <nav>
+                <ul id="primary-nav">
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram link"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter link"></a>
+            </div>
+            <button id="hamburger-button"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <ul id="hamburger-nav">
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p class="current-date"></p>
+    </header>
+    <main>
+        <div class="directory-main">
+            <h3>Business Directory</h3>
+            <div>
+                <button id="dir-grid-button">Grid</button>
+                <button id="dir-list-button">List</button>
+            </div>
+            <div class="directory-cards"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="general-info">
+            <div class="footer-logo">
+                <img src="images/weblogo.webp" alt="Cambridge UK Chamber Logo">
+                <section class="footer-headings">
+                    <h4>Cambridge, UK Chamber of Commerce</h4>
+                    <p>947 Street St.</p>
+                    <p>Cambridge, United Kingdom</p>
+                </section>
+            </div>
+            <div class="footer-info">
+                <p>info@cambridgeukchamber.com</p>
+                <p>555-5555</p>
+                <a href="https://www.google.com/maps/place/Cambridge/" target="_blank">Location Map</a>
+            </div>
+        </div>
+        <div class="small-copyright">
+            <p>&copy; <span id="small-copyright-year"></span> Cambridge UK Chamber</p>
+            <p>Joseph Toronto</p>
+            <p>WDD 230 Project</p>
+            <p>Last Updated: <span id="small-last-updated"></span></p>
+        </div>
+        <p class="medium-copyright">&copy; <span id="medium-copyright-year"></span>
+            Cambridge UK Chamber | Joseph Toronto | WDD 230 Project | Last Updated: <span id="medium-last-updated"></span></p>
+    </footer>
+    <script src="js/chamber.js"></script>
+    <script src="js/directory.js"></script>
+</body>
+</html>

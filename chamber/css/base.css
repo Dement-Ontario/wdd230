@@ -520,10 +520,93 @@ form p.small-hint:nth-last-child(2) {
     flex-grow: 1;
 }
 
-.thank-you-main, .join-main h3 {
+.thank-you-main, .join-main h3, .directory-main h3 {
     text-align: center;
 }
 
-.thank-you-main h3, .join-main h3 {
+.thank-you-main h3, .join-main h3, .directory-main h3 {
     font-size: 2rem;
+}
+
+/* Directory Page */
+
+.directory-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.directory-main div button {
+    color: white;
+    background-color: #1F487E;
+    border: 1px solid #376996;
+    padding: 0.5rem 0.75rem;
+}
+
+.directory-main div button:hover {
+    background-color: #376996;
+}
+
+.directory-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.directory-cards h4 {
+    margin-bottom: 0.5rem;
+    padding: 0;
+    font-size: 1.25rem;
+}
+
+.directory-cards section {
+    display: block;
+}
+
+.directory-cards img {
+    display: initial;
+}
+
+.directory-cards section p {
+    margin: 0;
+    padding: 0.5rem;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    border-left: none;
+}
+
+.directory-cards section p:first-of-type {
+    border-top: none;
+}
+
+.directory-cards.is-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.directory-cards.is-list h4 {
+    margin: 0;
+    margin-right: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.directory-cards.is-list section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.directory-cards.is-list img {
+    display: none;
+}
+
+.directory-cards.is-list section p {
+    border-left: 1px solid rgba(0,0,0,0.3);
+    border-top: none;
+    font-size: 0.85rem;
+}
+
+.directory-cards.is-list section p:last-of-type {
+    display: none;
 }

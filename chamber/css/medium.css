@@ -109,5 +109,15 @@
         grid-row: 1 / 5;
     }
 
+    /* Directory Page */
 
+    .directory-cards.is-list section p {
+        border-left: 1px solid rgba(0,0,0,0.3);
+        border-top: none;
+        font-size: 1rem;
+    }
+
+    .directory-cards.is-list h4 {
+        font-size: 1rem;
+    }
 } 
