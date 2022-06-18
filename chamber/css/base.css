@@ -567,6 +567,7 @@ form p.small-hint:nth-last-child(2) {
 
 .directory-cards img {
     display: initial;
+    width: 75px;
 }
 
 .directory-cards section p {
