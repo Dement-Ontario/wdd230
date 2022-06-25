@@ -49,10 +49,10 @@
             <section id="home-action-call">
                 <h3>Welcome to Cambridge, UK</h3>
                 <picture class="hero-image">
-                    <source media="(max-width: 34.99rem)" srcset="images/sample508.jpg">
-                    <source media="(max-width: 63.99rem)" srcset="images/sample972.jpg">
-                    <source media="(min-width: 64rem)" srcset="images/sample534.jpg">
-                    <img src="images/sample.jpg" alt="Action call image placeholder">
+                    <source media="(max-width: 34.99rem)" srcset="images/heroimage508.jpg">
+                    <source media="(max-width: 63.99rem)" srcset="images/heroimage972.jpg">
+                    <source media="(min-width: 64rem)" srcset="images/heroimage534.jpg">
+                    <img src="images/heroimage.jpg" alt="Action call image">
                 </picture>
                 <a href="#">Join the Chamber</a>
             </section>
@@ -64,13 +64,13 @@
             <section id="home-weather">
                 <h3>Weather</h3>
                 <div id="home-weather-temp">
-                    <img src="https://placekitten.com/75/75" alt="Weather image placeholder">
-                    <h4><span id="temperature">10</span>°C</h4>
+                    <img src="images/placeholder100.jpg" alt="Weather icon" id="home-weather-icon">
+                    <h4><span id="temperature">N/A</span>°C</h4>
                 </div>
-                <h5 id="home-weather-sun">Sunny</h5>
+                <h5 id="home-weather-sun">N/A</h5>
                 <div id="home-weather-wind">
                     <p>Wind Speed:</p>
-                    <p><span id="wind-speed">10</span> km/h</p>
+                    <p><span id="wind-speed">N/A</span> km/h</p>
                     <p>Wind Chill:</p>
                     <p id="wind-chill">N/A</p>
                 </div>
@@ -131,8 +131,9 @@
         </div>
         <p class="medium-copyright">&copy; <span id="medium-copyright-year"></span>
             Cambridge UK Chamber | Joseph Toronto | WDD 230 Project | Last Updated: <span id="medium-last-updated"></span></p>
+        <p id="home-weather-source">Weather Data Source: <a href="https://openweathermap.org/" target="_blank">openweathermap.org</a></p>
     </footer>
     <script src="js/chamber.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>

@@ -74,7 +74,7 @@ footer {
     padding-top: 0.5rem;
 }
 
-h1, h2, header p, footer p, .footer-info a {
+h1, h2, header p, footer p, footer a {
     color: white;
 }
 
@@ -270,12 +270,15 @@ main section div.spotlight p.spotlight-contact {
 
 #home-weather img {
     width: 35%;
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.2);
 }
 
 #home-weather-sun {
+    text-transform: capitalize;
     text-align: right;
     font-size: 1.5rem;
-    line-height: 2.75rem;
+    line-height: 2rem;
     margin-top: 0.5rem;
 }
 
@@ -292,6 +295,10 @@ main section div.spotlight p.spotlight-contact {
     border-top: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+#home-weather-source {
+    text-align: center;
 }
 
 #home-spotlight-three, #home-join {
