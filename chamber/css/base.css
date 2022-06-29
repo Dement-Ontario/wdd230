@@ -101,13 +101,13 @@ h3 {
 }
 
 header div {
-    margin-bottom: 1rem;
-    margin: 0 1rem 0 1rem;
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 header div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .general-info {
@@ -127,8 +127,7 @@ footer h4 {
 header button {
     color: white;
     font-size: 2rem;
-    margin-top: 1.5rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     background-color: #1F487E;
     border: 1px solid #376996;
     width: 3rem;
@@ -181,7 +180,7 @@ main section div.spotlight p.spotlight-contact {
 }
 
 #hamburger-nav {
-    margin: 0 2rem 1rem 2rem;
+    margin: 0 1rem 1rem 1rem;
 }
 
 #hamburger-nav.open {
@@ -333,11 +332,11 @@ main section div.spotlight p.spotlight-contact {
     padding: 1rem;
     border: 1px solid #376996;
     text-align: center;
-    margin: 0 2rem 0 2rem;
+    margin: 0 1rem 0 1rem;
 }
 
 .social {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .social img {
@@ -617,4 +616,15 @@ form p.small-hint:nth-last-child(2) {
 
 .directory-cards.is-list section p:last-of-type {
     display: none;
+}
+
+/* Contact Page */
+
+.contact-main {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-main img {
+    width: 75%;
 }

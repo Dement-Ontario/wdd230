@@ -18,6 +18,14 @@
     .general-info {
         flex-direction: row;
     }
+    
+    header div {
+        margin: 0 1rem 0 1rem;
+    }
+
+    header button {
+        margin-right: 1rem;
+    }
 
     main section div.spotlight {
         width: 100%;
@@ -27,6 +35,10 @@
     .logo img {
         width: 10rem;
         margin-top: 0;
+    }
+
+    .current-date {
+        margin: 0 2rem 0 2rem;
     }
 
     .small-copyright {
@@ -51,6 +63,10 @@
         flex-direction: column;
         margin-left: 0.25rem;
         margin-top: 1rem;
+    }
+
+    #hamburger-nav {
+        margin: 0 2rem 1rem 2rem;
     }
 
     #home-action-call {
