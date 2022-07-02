@@ -138,27 +138,27 @@ header button:hover {
     background-color: #1D3461;
 }
 
-main section, main section div.spotlight,
+main section, #home-spotlights, .spotlight,
 .discover-left-image, .discover-right-image,
-.membership-benefits {
+.membership-benefits, .contact-square {
     text-align: center;
     background-color: rgba(0,0,0,0.1);
     padding: 0.75rem;
     border: 1px solid rgba(0,0,0,0.3);
 }
 
-main section div.spotlight img {
-    width: 40%;
+.spotlight img {
+    width: 75px;
     margin-top: -0.5rem;
 }
 
-main section div.spotlight p {
+.spotlight p {
     font-style: italic;
     margin-top: 0.25rem;
     margin-bottom: 0.5rem;
 }
 
-main section div.spotlight p.spotlight-contact {
+.spotlight p.spotlight-contact {
     font-size: 0.9rem;
     font-style: normal;
     border-top: 1px solid black;
@@ -493,16 +493,21 @@ span.required {
     font-size: 1.25rem;
 }
 
-.small-hint {
+.small-hint, .required-hint {
     font-size: 0.85rem;
     margin-top: -0.75rem;
 }
 
-form p.small-hint:nth-last-child(2) {
+.required-hint {
     background-color: rgba(0,0,0,0.05);
     padding: 0.5rem;
     border: 1px solid rgba(0,0,0,0.2);
     max-width: 15.525rem;
+}
+
+.required-hint:first-child {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
 }
 
 .membership-benefits {
@@ -526,11 +531,11 @@ form p.small-hint:nth-last-child(2) {
     flex-grow: 1;
 }
 
-.thank-you-main, .join-main h3, .directory-main h3 {
+.thank-you-main, .join-main h3, .directory-main h3, .contact-main h3 {
     text-align: center;
 }
 
-.thank-you-main h3, .join-main h3, .directory-main h3 {
+.thank-you-main h3, .join-main h3, .directory-main h3, .contact-main h3 {
     font-size: 2rem;
 }
 
@@ -622,9 +627,50 @@ form p.small-hint:nth-last-child(2) {
 
 .contact-main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.contact-main img {
-    width: 75%;
+.contact-main h3, .contact-main p:last-of-type {
+    grid-column: 1 / 3;
+}
+
+.contact-main section h3 {
+    margin-bottom: -0.1rem;
+}
+
+.contact-main form {
+    max-width: 532px;
+    grid-column: 1 / 2;
+    padding: 0.75rem;
+}
+
+.contact-main .required-hint {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+
+.contact-main form, .contact-main section, .contact-square {
+    background-color: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.contact-main section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    gap: 0.75rem;
+    grid-column: 2 / 3;
+}
+
+.contact-main fieldset {
+    width: auto;
+    margin: 0;
+}
+
+.contact-square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
 }

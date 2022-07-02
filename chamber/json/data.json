@@ -2,75 +2,93 @@
     "businesses": [
         {
             "name": "The Beef Store",
-            "imageurl": "https://placekitten.com/75/75",
+            "imageurl": "images/beefstore.png",
             "address": "1 Place Avenue",
             "phonenumber": "555-1111",
             "siteurl": "beefstore.org",
-            "memberlevel": "Gold"
+            "memberlevel": "Gold",
+            "description": "All beef (super)naturally sourced."
         },
         {
             "name": "Barstucks",
-            "imageurl": "https://placekitten.com/75/75",
+            "imageurl": "images/barstucks.png",
             "address": "2 Place Avenue",
             "phonenumber": "555-2244",
             "siteurl": "com.barstucks",
-            "memberlevel": "Bronze"
+            "memberlevel": "Bronze",
+            "description": "No ropycight infringement indented."
         },
         {
             "name": "Your Local Library",
-            "imageurl": "https://placekitten.com/75/75",
+            "imageurl": "images/library.png",
             "address": "3 Place Avenue",
             "phonenumber": "555-3366",
             "siteurl": "yourlocallibrary.gov",
-            "memberlevel": "Non-Profit"
+            "memberlevel": "Non-Profit",
+            "description": "Come for the computer access, stay for the books!"
         },
         {
             "name": "Birds-We-Make",
-            "imageurl": "https://placekitten.com/75/75",
+            "imageurl": "images/birdswemake.jpg",
             "address": "4 Place Avenue",
             "phonenumber": "555-4488",
             "siteurl": "birdswemake.org",
-            "memberlevel": "Silver"
+            "memberlevel": "Gold",
+            "description": "Not to be confused with the government."
         },
         {
             "name": "Inconspicuous Pizza Place",
-            "imageurl": "https://placekitten.com/75/75",
+            "imageurl": "images/pizzaplace.png",
             "address": "5 Place Avenue",
             "phonenumber": "555-5510",
             "siteurl": "noneofya.biz",
-            "memberlevel": "Silver"
+            "memberlevel": "Gold",
+            "description": "We ain't sayin' nothin'!"
         },
         {
             "name": "Cheddar Choices",
-            "imageurl": "https://placekitten.com/75/75",
+            "imageurl": "images/cheese.jpg",
             "address": "Your Local Sewer",
             "phonenumber": "555-6612",
             "siteurl": "cheddarchoices.co.uk",
-            "memberlevel": "Bronze"
+            "memberlevel": "Bronze",
+            "description": "Cheaze :)"
         },
         {
             "name": "Pretty Much Just Beans",
-            "imageurl": "https://placekitten.com/75/75",
+            "imageurl": "images/beans.png",
             "address": "7 Place Avenue",
             "phonenumber": "555-7714",
             "siteurl": "beeeaaaannnns.ben",
-            "memberlevel": "Gold"
+            "memberlevel": "Silver",
+            "description": "Exactly what we mean."
         },
         {
             "name": "People Zoo",
-            "imageurl": "https://placekitten.com/75/75",
+            "imageurl": "images/peoplezoo.jpg",
             "address": "8 Place Avenue",
             "phonenumber": "555-8816",
             "siteurl": "habitat4humans.org",
-            "memberlevel": "Non-Profit"
+            "memberlevel": "Non-Profit",
+            "description": "No, we're not Habitat for Humanity. Completely different goals."
         },
         {
             "name": "Man-Made Bird Destroyers Inc.",
-            "imageurl": "https://placekitten.com/75/75",
+            "imageurl": "images/birddestroyers.jpg",
             "address": "Hubble Space Telescope",
             "phonenumber": "555-9001",
             "siteurl": "birddestroyers.gov",
-            "memberlevel": "Gold"
+            "memberlevel": "Gold",
+            "description": "We strive to get rid of all* of them!"
+        },
+        {
+            "name": "The Soup Store",
+            "imageurl": "images/soupstore.jpg",
+            "address": "11 Place Avenue",
+            "phonenumber": "555-SOUP",
+            "siteurl": "thesoupstore.org",
+            "memberlevel": "Silver",
+            "description": "Don't be fooled; we sell clothes."
         }
     ]
 }

@@ -3,7 +3,7 @@
 
     .home-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr auto;
+        grid-template-rows: 279px 279px auto;
     }
 
     button#hamburger-button {display: none;}
@@ -28,7 +28,7 @@
         margin-right: 2rem;
     }
 
-    main section div.spotlight {
+    .spotlight {
         height: 100%;
         width: auto;
     }
@@ -70,5 +70,12 @@
 
     #home-spotlight-three {
         display: block;
+    }
+
+    /* Contact Page */
+
+    .contact-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

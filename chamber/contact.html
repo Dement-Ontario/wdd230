@@ -48,7 +48,59 @@
     </header>
     <main>
         <div class="contact-main">
-            <img src="images/underconstruction.png">
+            <form method="get" action="contactthanks.html">
+                <h3>Have a Question?</h3>
+                <p class="required-hint">Items with a red asterisk (<span class="required">*</span>) are required.</p>
+                <fieldset>
+                    <label>First Name<span class="required">*</span>
+                        <br><input type="text" name="fname" required></label>
+                    <label>Last Name<span class="required">*</span>
+                        <br><input type="text" name="lname" required></label>
+                    <label>Email Address<span class="required">*</span>
+                        <br><input type="email" name="email" 
+                        placeholder="email@emailsite.com" required></label>
+                    <label>Question or Concern<span class="required">*</span><br><textarea name="desc" required></textarea></label>
+                </fieldset>
+                <input type="hidden" id="form-date" name="datetime">
+                <input type="submit" value="Ask Us Your Question" class="submit-button">
+            </form>
+            <section>
+                <h3>Contact Us</h3>
+                <div class="contact-square">
+                    <h4>John Smith</h4>
+                    <p>Chief Executive Officer</p>
+                    <p>555-1205</p>
+                </div>
+                <div class="contact-square">
+                    <h4>Samuel Monstley</h4>
+                    <p>Marketing Director</p>
+                    <p>555-0536</p>
+                </div>
+                <div class="contact-square">
+                    <h4>Jordan Smith</h4>
+                    <p>Business Director (perfectly legitimate, no nepotism here)</p>
+                    <p>555-5826</p>
+                </div>
+                <div class="contact-square">
+                    <h4>Marley Small</h4>
+                    <p>Secretary-in-Chief's Assistant's Intern's Pizza Delivery Guy</p>
+                    <p>555-7053</p>
+                </div>
+                <div class="contact-square">
+                    <h4>Mr. Bones</h4>
+                    <p>Closet Skeleton</p>
+                    <p>555-4296</p>
+                </div>
+                <div class="contact-square">
+                    <h4>The Kraken</h4>
+                    <p>Tentacled Monster of the Deep</p>
+                    <p>555-9320</p>
+                </div>
+                <p>
+                    Office hours are typically from 9am to 10pm GMT. Exceptions to this include holidays,
+                    extraterrestrial invasion, or the CEO not feeling up to anything that day.
+                </p>
+            </section>
         </div>
     </main>
     <footer>
@@ -77,5 +129,6 @@
             Cambridge UK Chamber | Joseph Toronto | WDD 230 Project | Last Updated: <span id="medium-last-updated"></span></p>
     </footer>
     <script src="js/chamber.js"></script>
+    <script src="js/formdate.js"></script>
 </body>
 </html>

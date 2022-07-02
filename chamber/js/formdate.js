@@ -1,3 +1,3 @@
-const formDate = document.getElementById('join-form-date');
+const formDate = document.getElementById('form-date');
 
 formDate.value = now;
