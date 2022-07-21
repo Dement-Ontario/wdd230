@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Temple Inn & Suites</title>
+    <meta name="description" content="The Temple Inn & Suites home page, made for BYU-Idaho Online's WDD 230 course">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p id="home-weather-alert" class="gone"></p>
+        <div>
+            <a href="index.html" class="logo"><img src="images/icon.png" alt="Temple Inn & Suites Logo"></a>
+            <nav>
+                <ul id="primary-nav">
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger-button"><span>&#9776;</span><span>X</span></button>
+        </div>
+    </header>
+    <main>
+        <div class="main-grid home-grid">
+            <h1>Welcome to the Temple Inn & Suites</h1>
+            <img src="images/provotemple.jpg" alt="Provo, Utah Temple" id="home-image-1">
+            <div id="home-action-call">
+                <p>Welcome to the official* website for Temple Inn & Suites!</p>
+                <a href="reservation.html">Reserve a Room</a>
+            </div>
+            <img src="images/dctemple.jpg" alt="Washington D.C. Temple" id="home-image-2">
+            <section id="home-temple-info">
+                <h2>The Washington, D.C. Temple</h2>
+                <p>
+                    Announced in 1968 and dedicated in 1974, the area around this temple has
+                    quite the array of Christmas decorations that you wouldn't want to miss.
+                </p>
+            </section>
+            <div id="home-weather-today">
+                <img src="images/squareplaceholder.jpg" alt="Icon of today's weather conditions" id="weather-icon-today">
+                <p id="weather-temp-today">10°F</p>
+                <p id="weather-condition-today">Sunny</p>
+                <p>Humidity: <span id="weather-humidity-today">62</span>%</p>
+            </div>
+            <section id="home-forecast">
+                <h2>Three-Day Forecast</h2>
+                <div>
+                    <div id="forecast-day-1">
+                        <img src="images/squareplaceholder.jpg" alt="Icon of today's weather conditions" id="forecast-icon-1">
+                        <p id="forecast-temp-1">50°F</p>
+                    </div>
+                    <div id="forecast-day-2">
+                        <img src="images/squareplaceholder.jpg" alt="Icon of today's weather conditions" id="forecast-icon-2">
+                        <p id="forecast-temp-2">100°F</p>
+                    </div>
+                    <div id="forecast-day-3">
+                        <img src="images/squareplaceholder.jpg" alt="Icon of today's weather conditions" id="forecast-icon-3">
+                        <p id="forecast-temp-3">70°F</p>
+                    </div>
+                </div>
+            </section>
+            <img src="images/oklahomafont.jpg" alt="Oklahoma City Temple's Baptismal Font" id="home-image-3">
+            <section id="home-contact">
+                <div>
+                <h2>Have a Question?</h2>
+                    <p>
+                        Call us at 555-1263, 555-1609, or 555-1023,
+                        or you can contact us with either the form in the
+                        footer below, our email (contact@temple-inn-suites.com)
+                        or at our headquarters at <i>4800 Montgomery Ln #300,
+                        Bethesda, MD 20814</i>.
+                    </p>
+                    <h2>Follow Us</h2>
+                    <p>
+                        We're also on social media! Follow us at our Facebook
+                        and Twitter pages for frequent updates, discounts, and more!
+                    </p>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebookicon.png" alt="Facebook link"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/twittericon.png" alt="Twitter link"></a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <div>
+                <p>Customer Service's phone number: 555-1263</p>
+                <p>CEO's phone number: 555-1609</p>
+                <p>Greg's phone number: 555-1023</p>
+                <p><br>Email: contact@temple-inn-suites.com</p>
+            </div>
+            <div>
+                <p>
+                    You can also contact us at our headquarters at
+                    <i>4800 Montgomery Ln #300, Bethesda, MD 20814</i>.
+                </p>
+                <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%2523300,+Bethesda,+MD+20814,+USA" target="_blank">
+                    Location Map
+                </a>
+                <div class="social">
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebookicon.png" alt="Facebook link"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/twittericon.png" alt="Twitter link"></a>
+                </div>
+            </div>
+            <div>
+                <form method="get" action="contactthanks.html">
+                    <label>Name:
+                        <br><input type="text" name="name" required></label>
+                    <label>Email:
+                        <br><input type="email" name="email" 
+                        placeholder="myemail@email.com" required></label>
+                    <label>Question:<br><textarea name="desc" required></textarea></label>
+                    <input type="hidden" id="form-date" name="datetime">
+                    <input type="submit" value="Contact Us" class="submit-button">
+                </form>
+            </div>
+        </div>
+        <p id="last-updated">Last Updated:</p>
+        <p id="resource-link"><a href="resources.html">Resources Used</a></p>
+    </footer>
+    <script src="js/general.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>

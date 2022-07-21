@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <meta name="description" content="The Temple Inn & Suites thank-you page, made for BYU-Idaho Online's WDD 230 course">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html" class="logo"><img src="images/icon.png" alt="Temple Inn & Suites Logo"></a>
+            <nav>
+                <ul id="primary-nav">
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger-button"><span>&#9776;</span><span>X</span></button>
+        </div>
+    </header>
+    <main>
+        <div class="main-grid thanks-main">
+            <h1>Thank You</h1>
+            <p>Your question will be read. Thank you for contacting Temple Inn & Suites.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <div>
+                <p>Customer Service's phone number: 555-1263</p>
+                <p>CEO's phone number: 555-1609</p>
+                <p>Greg's phone number: 555-1023</p>
+                <p><br>Email: contact@temple-inn-suites.com</p>
+            </div>
+            <div>
+                <p>
+                    You can also contact us at our headquarters at
+                    <i>4800 Montgomery Ln #300, Bethesda, MD 20814</i>.
+                </p>
+                <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%2523300,+Bethesda,+MD+20814,+USA" target="_blank">
+                    Location Map
+                </a>
+                <div class="social">
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebookicon.png" alt="Facebook link"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/twittericon.png" alt="Twitter link"></a>
+                </div>
+            </div>
+            <div>
+                <form method="get" action="contactthanks.html">
+                    <label>Name:
+                        <br><input type="text" name="name" required></label>
+                    <label>Email:
+                        <br><input type="email" name="email" 
+                        placeholder="myemail@email.com" required></label>
+                    <label>Question:<br><textarea name="desc" required></textarea></label>
+                    <input type="hidden" id="form-date" name="datetime">
+                    <input type="submit" value="Contact Us" class="submit-button">
+                </form>
+            </div>
+        </div>
+        <p id="last-updated">Last Updated:</p>
+        <p id="resource-link"><a href="resources.html">Resources Used</a></p>
+    </footer>
+    <script src="js/general.js"></script>
+</body>
+</html>

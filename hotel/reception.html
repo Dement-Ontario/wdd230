@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Temple Inn & Suites | Reception</title>
+    <meta name="description" content="The Temple Inn & Suites reception page, made for BYU-Idaho Online's WDD 230 course">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html" class="logo"><img src="images/icon.png" alt="Temple Inn & Suites Logo"></a>
+            <nav>
+                <ul id="primary-nav">
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger-button"><span>&#9776;</span><span>X</span></button>
+        </div>
+    </header>
+    <main>
+        <div class="main-grid reception-grid">
+            <h1>Wedding Reception Hall</h1>
+            <div>
+                <h2>General Decoration</h2>
+                <p>
+                    We have a wide assortment of decorations to choose from, including
+                    but not limited to streamers, balloons, confetti, and hand-crafted
+                    wooden statues of the newlyweds, should such a thing be asked for.
+                    We also have decorations grouped thematically, so if you want a
+                    wedding reception themed after Star Wars, we can do that.
+                </p>
+            </div>
+            <div>
+                <h2>Catering Service</h2>
+                <p>
+                    We can provide some simple catering if needed, serving a large
+                    range of bite-sized snacks. These snacks include hors d'oeuvres,
+                    small fruits, and cocktail sausages.
+                </p>
+            </div>
+            <div>
+                <h2>The Kitchen</h2>
+                <p>
+                    The reception hall also includes a large kitchen, where you can
+                    prepare all of the food that you want to use for the reception.
+                    The kitchen includes cooking utensils, two ovens, one microwave, one sink, and
+                    a large refrigerator-freezer hybrid. You can also request other
+                    kitchen appliances, such as air fryers, slow cookers, or blenders.
+                </p>
+            </div>
+            <div>
+                <h2>Cleaning Service</h2>
+                <p>
+                    After spending the night partying, you can count on us
+                    to clean up after you. Unless, of course, you want to
+                    help with the cleaning, in which case we won't stop you.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <div>
+                <p>Customer Service's phone number: 555-1263</p>
+                <p>CEO's phone number: 555-1609</p>
+                <p>Greg's phone number: 555-1023</p>
+                <p><br>Email: contact@temple-inn-suites.com</p>
+            </div>
+            <div>
+                <p>
+                    You can also contact us at our headquarters at
+                    <i>4800 Montgomery Ln #300, Bethesda, MD 20814</i>.
+                </p>
+                <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%2523300,+Bethesda,+MD+20814,+USA" target="_blank">
+                    Location Map
+                </a>
+                <div class="social">
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebookicon.png" alt="Facebook link"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/twittericon.png" alt="Twitter link"></a>
+                </div>
+            </div>
+            <div>
+                <form method="get" action="contactthanks.html">
+                    <label>Name:
+                        <br><input type="text" name="name" required></label>
+                    <label>Email:
+                        <br><input type="email" name="email" 
+                        placeholder="myemail@email.com" required></label>
+                    <label>Question:<br><textarea name="desc" required></textarea></label>
+                    <input type="hidden" id="form-date" name="datetime">
+                    <input type="submit" value="Contact Us" class="submit-button">
+                </form>
+            </div>
+        </div>
+        <p id="last-updated">Last Updated:</p>
+        <p id="resource-link"><a href="resources.html">Resources Used</a></p>
+    </footer>
+    <script src="js/general.js"></script>
+</body>
+</html>

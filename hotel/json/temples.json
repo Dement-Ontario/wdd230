@@ -1,0 +1,72 @@
+{
+    "temples": [
+        {
+            "shortname" : "boisetemple",
+            "name" : "Boise Idaho Temple",
+            "imgsrc" : "images/boisetemple.jpg",
+            "address" : "1211 S Cole Rd, Boise ID 83709-1871, United States",
+            "phone" : "(1) 208-322-4422",
+            "email" : "[cannot find email]",
+            "services" : ["No clothing rental available", "No cafeteria available",
+            "No patron housing available", "Distribution center nearby"],
+            "history" : ["31 March 1982 - Announced", "18 December 1982 - Groundbreaking",
+            "25 May 1984 - Dedicated", "14 February 1987 - Rededicated", "18 November 2012 - Rededicated"],
+            "ordinancesched" : ["Appointment Required, No Schedule"],
+            "sessionsched" : ["[cannot find session schedule]"],
+            "tempclosesched" : ["Saturday, 1 October 2022", "Monday, 10 October 2022 - Monday, 24 October 2022",
+            "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022",
+            "Saturday, 24 December 2022", "Saturday, 31 December 2022 (Limited Operations)"]
+        },
+        {
+            "shortname" : "guatemalatemple",
+            "name" : "Guatemala City Guatemala Temple",
+            "imgsrc" : "images/guatemalatemple.jpg",
+            "address" : "24 Avenida 2-20, Zona 15, Vista Hermosa 1, Guatemala Guatemala City, Guatemala",
+            "phone" : "(502) 2329-8300",
+            "email" : "[cannot find email]",
+            "services" : ["No clothing rental available", "No cafeteria available",
+            "Patron housing available", "Distribution center nearby"],
+            "history" : ["1 April 1981 - Announced", "12 September 1982 - Groundbreaking",
+            "14 December 1984 - Dedicated"],
+            "ordinancesched" : ["Appointment Required, No Schedule"],
+            "sessionsched" : ["[cannot find session schedule]"],
+            "tempclosesched" : ["Monday, 4 July 2022 - Monday, 18 July 2022", "Thursday, 15 September 2022 (Limited Operations)",
+            "Saturday, 1 October 2022 - Sunday, 2 October 2022", "Tuesday, 1 November 2022 (Limited Operations)",
+            "Friday, 23 December 2022 (Limited Operations)", "Saturday, 24 December 2022 - Sunday, 25 December 2022",
+            "Saturday, 31 December 2022 - Sunday, 1 January 2023"]
+        },
+        {
+            "shortname" : "londontemple",
+            "name" : "London England Temple",
+            "imgsrc" : "images/londontemple.jpg",
+            "address" : "West Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
+            "phone" : "(44) 1342 831-400",
+            "email" : "[cannot find email]",
+            "services" : ["Clothing rental available", "No cafeteria available",
+            "Patron housing available", "Distribution center nearby"],
+            "history" : ["10 August 1953 - Announced", "27 August 1955 - Groundbreaking",
+            "7 September 1958 - Dedicated", "18 October 1992 - Rededicated"],
+            "ordinancesched" : ["Appointment Required, No Schedule"],
+            "sessionsched" : ["[cannot find session schedule]"],
+            "tempclosesched" : ["Monday, 19 September 2022 - Monday, 3 October 2022", "Friday, 23 December 2022 - Tuesday, 27 December 2022",
+            "Friday, 30 December 2022 - Monday, 2 January 2023"]
+        },
+        {
+            "shortname" : "vegastemple",
+            "name" : "Las Vegas Nevada Temple",
+            "imgsrc" : "images/vegastemple.jpg",
+            "address" : "827 Temple View Dr, Las Vegas NV 89110-2920, United States",
+            "phone" : "(1) 702-452-5011",
+            "email" : "[cannot find email]",
+            "services" : ["Clothing rental available", "No cafeteria available",
+            "No patron housing available", "Distribution center nearby"],
+            "history" : ["7 April 1984 - Announced", "30 November 1985 - Groundbreaking",
+            "16 December 1989 - Dedicated"],
+            "ordinancesched" : ["Appointment Required, No Schedule"],
+            "sessionsched" : ["[cannot find session schedule]"],
+            "tempclosesched" : ["Monday, 11 July 2022 - Monday, 25 July 2022", "Saturday, 1 October 2022",
+            "Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"]
+        }
+    ]
+}

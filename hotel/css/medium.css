@@ -1,0 +1,54 @@
+@media (min-width: 38.5rem) {
+    header, footer {
+        border-radius: 0;
+    }
+
+    nav {
+        display: block;
+        grid-column: 2 / 3;
+    }
+
+    footer div.footer-info {
+        flex-direction: row;
+    }
+
+    footer div div:nth-child(1) {
+        width: 35%;
+    }
+    
+    footer div div:nth-child(2) {
+        width: 30%;
+        border-left: 1px solid rgba(0,0,0,0.3);
+        border-right: 1px solid rgba(0,0,0,0.3);
+        border-bottom: none;
+        border-top: none;
+    }
+
+    #primary-nav {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    #hamburger-button {
+        display: none;
+    }
+
+    #home-image-3 {
+        display: block;
+    }
+
+    .home-grid, .services-grid, .reception-grid {
+        display: grid;
+    }
+
+    /* Temples */
+
+    .temples-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .missionary-grid div:not(.suite-info) {
+        width: 50%;
+    }
+}

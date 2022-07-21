@@ -1,0 +1,15 @@
+@media (min-width: 68em) {
+    header, footer {
+        border-radius: 2rem;
+    }
+
+    /* Missionary */
+
+    .missionary-grid {
+        display: grid;
+        grid-template-columns: 1.25fr 0.75fr;
+    }
+    .missionary-grid div:not(.suite-info) {
+        width: auto;
+    }
+}

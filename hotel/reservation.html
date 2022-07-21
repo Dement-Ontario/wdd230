@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Temple Inn & Suites | Reservation</title>
+    <meta name="description" content="The Temple Inn & Suites reservation page, made for BYU-Idaho Online's WDD 230 course">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html" class="logo"><img src="images/icon.png" alt="Temple Inn & Suites Logo"></a>
+            <nav>
+                <ul id="primary-nav">
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger-button"><span>&#9776;</span><span>X</span></button>
+        </div>
+    </header>
+    <main>
+        <div class="main-grid reservation-main">
+            <h1>Reserve a Room</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="required">First Name
+                        <br><input type="text" name="fname" required></label>
+                    <label class="required">Last Name
+                        <br><input type="text" name="lname" required></label>
+                    <label class="required">Email Address
+                        <br><input type="email" name="email" 
+                        placeholder="myemail@email.com" required></label>
+                    <label class="required">Phone Number
+                        <br><input type="tel" name="phone" required></label>
+                    <label>Home State/Country
+                        <br><input type="text" name="country"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Reservation Information</legend>
+                    <label class="required">Hotel Location
+                        <br><select name="location" required>
+                            <option value="">Select a Location</option>
+                            <option value="boise">Boise, Idaho</option>
+                            <option value="guatemala">Guatemala City, Guatemala</option>
+                            <option value="london">London, England</option>
+                            <option value="vegas">Las Vegas, Nevada</option>
+                        </select><br></label>
+                    <label class="required">Reservation Date
+                        <br><input type="date" name="date" required></label>
+                    <label class="required">Number of Rooms
+                        <br><input type="number" min="1" max="500" value="1" name="roomnum" required></label>
+                    <label class="required">Room Type
+                        <br><select name="type" required>
+                            <option value="">Select a Type</option>
+                            <option value="large">Large Room</option>
+                            <option value="medium">Medium Room</option>
+                            <option value="small">Small Room</option>
+                        </select><br></label>
+                    <label>Special Accommodations/Comments<br><textarea name="accomm"></textarea></label>
+                </fieldset>
+                <input type="hidden" id="distinct-form-date" name="datetime">
+                <input type="submit" value="Reserve My Room(s)" class="submit-button">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <div>
+                <p>Customer Service's phone number: 555-1263</p>
+                <p>CEO's phone number: 555-1609</p>
+                <p>Greg's phone number: 555-1023</p>
+                <p><br>Email: contact@temple-inn-suites.com</p>
+            </div>
+            <div>
+                <p>
+                    You can also contact us at our headquarters at
+                    <i>4800 Montgomery Ln #300, Bethesda, MD 20814</i>.
+                </p>
+                <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%2523300,+Bethesda,+MD+20814,+USA" target="_blank">
+                    Location Map
+                </a>
+                <div class="social">
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebookicon.png" alt="Facebook link"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="images/twittericon.png" alt="Twitter link"></a>
+                </div>
+            </div>
+            <div>
+                <form method="get" action="contactthanks.html">
+                    <label>Name:
+                        <br><input type="text" name="name" required></label>
+                    <label>Email:
+                        <br><input type="email" name="email" 
+                        placeholder="myemail@email.com" required></label>
+                    <label>Question:<br><textarea name="desc" required></textarea></label>
+                    <input type="hidden" id="form-date" name="datetime">
+                    <input type="submit" value="Contact Us" class="submit-button">
+                </form>
+            </div>
+        </div>
+        <p id="last-updated">Last Updated:</p>
+        <p id="resource-link"><a href="resources.html">Resources Used</a></p>
+    </footer>
+    <script src="js/general.js"></script>
+    <script src="js/distinctform.js"></script>
+</body>
+</html>
